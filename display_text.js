@@ -112,8 +112,10 @@ function response() {
   
   if (tree.eng.toLowerCase() == in_text.toLowerCase()) {
     response = "Correct";
+    document.getElementById('textviewerdiv').style.color = 'green'
   } else {
     response = "Wrong: " + tree.eng;
+    document.getElementById('textviewerdiv').style.color = 'red'
   }
   document.getElementById('textviewerdiv').innerHTML = response;
   const element = document.getElementById('nexttree');
