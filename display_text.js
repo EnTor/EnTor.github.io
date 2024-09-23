@@ -1,71 +1,71 @@
-var tree_list = [{eng: 'European red pine', swe: 'Tall', latin: 'Pinus sylvestris', pic: 'tall.jpg'},
-             {eng: 'Norway spruce', swe: 'Gran', latin: 'Picea abies', pic: 'gran.jpg'},
-             {eng: 'European beech', swe: 'Bok', latin: 'Fagus sylvatica', pic: 'bok.jpg'},
-             {eng: 'Grand Fir', latin: 'Abies grandis'},
-             {eng: 'Field Maple', latin: 'Acer campestre'},
-             {eng: 'Norway Maple', latin: 'Acer platanoides'},
-             {eng: 'Sycamore Maple', latin: 'Acer pseudoplatanus'},
-             {eng: 'Sugar Maple', latin: 'Acer saccharum'},
-             {eng: 'Horse Chestnut', latin: 'Aesculus hippocastanum'},
-             {eng: 'Common Alder', latin: 'Alnus glutinosa'},
-             {eng: 'Grey Alder', latin: 'Alnus incana'},
-             {eng: 'Silver Birch', latin: 'Betula pendula'},
-             {eng: 'Downy Birch', latin: 'Betula pubescens'},
-             {eng: 'Common Hornbeam', latin: 'Carpinus betulus'},
-             {eng: 'Cornelian Cherry', latin: 'Cornus mas'},
-             {eng: 'Common Dogwood', latin: 'Cornus sanguinea'},
-             {eng: 'Common Hazel', latin: 'Corylus avellana'},
-             {eng: 'Common Hawthorn', latin: 'Crataegus monogyna'},
-             {eng: 'Common Beech', latin: 'Fagus sylvatica'},
-             {eng: 'Common Ash', latin: 'Fraxinus excelsior'},
-             {eng: 'Maidenhair Tree', latin: 'Ginkgo biloba'},
-             {eng: 'Common Walnut', latin: 'Juglans regia'},
-             {eng: 'Common Juniper', latin: 'Juniperus communis'},
-             {eng: 'European Larch', latin: 'Larix decidua'},
-             {eng: 'Japanese Larch', latin: 'Larix kaempferi'},
-             {eng: 'Wild Crab', latin: 'Malus sylvestris'},
-             {eng: 'Norway Spruce', latin: 'Picea abies'},
-             {eng: 'Sitka Spruce', latin: 'Picea sitchensis'},
-             {eng: 'Lodgepole Pine', latin: 'Pinus contorta'},
-             {eng: 'Mountain Pine', latin: 'Pinus mugo'},
-             {eng: 'Austrian Pine', latin: 'Pinus nigra'},
-             {eng: 'Ponderosa Pine', latin: 'Pinus ponderosa'},
-             {eng: 'Weymouth Pine', latin: 'Pinus strobus'},
-             {eng: 'Scots Pine', latin: 'Pinus sylvestris'},
-             {eng: 'Wild Cherry', latin: 'Prunus avium'},
-             {eng: 'Bird Cherry', latin: 'Prunus padus'},
-             {eng: 'Douglas Fir', latin: 'Pseudotsuga menziesii'},
-             {eng: 'Common Pear', latin: 'Pyrus communis'},
-             {eng: 'Sessile Oak', latin: 'Quercus petraea'},
-             {eng: 'English Oak', latin: 'Quercus robur'},
-             {eng: 'Red Oak', latin: 'Quercus rubra'},
-             {eng: 'Goat Willow', latin: 'Salix caprea'},
-             {eng: 'European Elder', latin: 'Sambucus nigra'},
-             {eng: 'Common Rowan', latin: 'Sorbus aucuparia'},
-             {eng: 'Swedish Whitebeam', latin: 'Sorbus intermedia'},
-             {eng: 'Common Yew', latin: 'Taxus baccata'},
-             {eng: 'Small-leaved Lime', latin: 'Tilia cordata'},
-             {eng: 'Broad-leaved Lime', latin: 'Tilia platyphyllos'},
-             {eng: 'Eastern Hemlock', latin: 'Tsuga canadensis'},
-             {eng: 'Wynch Elm', latin: 'Ulmus glabra'},
-             {latin: 'Tilia × europaea', eng: 'Common Lime'},
-             {latin: 'Platanus × hispanica', eng: 'London Plane'},
-             {latin: ' Populus × canadensis \'Robusta\'', eng: 'Canadian Poplar'},
-             {eng: 'Hybrid Aspen', latin: ' Populus × wettsteinii'},
-             {eng: 'Aspen', latin: 'Populus tremula'},
-             {eng: 'Dunkeld Larch', latin: 'Larix x marschlinsii (eurolepis)'},
-             {eng: 'European Fly Honeysuckle', latin: 'Lonicera xylosteum'},
-             {eng: 'Blackthorn', latin: 'Prunus spinosa'},
-             {eng: 'Mountain Currant, Alpine Currant', latin: 'Ribes alpinum'},
-             {eng: 'White Willow', latin: 'Salix alba var. Sericea'},
-             {eng: 'European Red Elder', latin: 'Sambucus racemosa'},
-             {eng: 'Eastern White Cedar', latin: 'Thuja occidentalis'},
-             {eng: 'Western Red Cedar', latin: 'Thuja plicata'},
-             {eng: 'Guelder Rose', latin: 'Viburnum opulus'},
-            ];
+var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
+  {eng: 'Austrian Pine', latin: 'Pinus nigra'},
+  {eng: 'Bird Cherry', latin: 'Prunus padus'},
+  {eng: 'Blackthorn', latin: 'Prunus spinosa'},
+  {eng: 'Broad-leaved Lime', latin: 'Tilia platyphyllos'},
+  {eng: 'Canadian Poplar', latin: " Populus x canadensis \'Robusta\'"},
+  {eng: 'Common Alder', latin: 'Alnus glutinosa'},
+  {eng: 'Common Ash', latin: 'Fraxinus excelsior'},
+  {eng: 'Common Beech', latin: 'Fagus sylvatica'},
+  {eng: 'Common Dogwood', latin: 'Cornus sanguinea'},
+  {eng: 'Common Hawthorn', latin: 'Crataegus monogyna'},
+  {eng: 'Common Hazel', latin: 'Corylus avellana'},
+  {eng: 'Common Hornbeam', latin: 'Carpinus betulus'},
+  {eng: 'Common Juniper', latin: 'Juniperus communis'},
+  {eng: 'Common Lime', latin: 'Tilia x europaea'},
+  {eng: 'Common Pear', latin: 'Pyrus communis'},
+  {eng: 'Common Rowan', latin: 'Sorbus aucuparia'},
+  {eng: 'Common Walnut', latin: 'Juglans regia'},
+  {eng: 'Common Yew', latin: 'Taxus baccata'},
+  {eng: 'Cornelian Cherry', latin: 'Cornus mas'},
+  {eng: 'Douglas Fir', latin: 'Pseudotsuga menziesii'},
+  {eng: 'Downy Birch', latin: 'Betula pubescens'},
+  {eng: 'Dunkeld Larch', latin: 'Larix x marschlinsii (eurolepis)'},
+  {eng: 'Eastern Hemlock', latin: 'Tsuga canadensis'},
+  {eng: 'Eastern White Cedar', latin: 'Thuja occidentalis'},
+  {eng: 'English Oak', latin: 'Quercus robur'},
+  {eng: 'European Elder', latin: 'Sambucus nigra'},
+  {eng: 'European Fly Honeysuckle', latin: 'Lonicera xylosteum'},
+  {eng: 'European Larch', latin: 'Larix decidua'},
+  {eng: 'European Red Elder', latin: 'Sambucus racemosa'},
+  {eng: 'European beech', latin: 'Fagus sylvatica'},
+  {eng: 'European red pine', latin: 'Pinus sylvestris'},
+  {eng: 'Field Maple', latin: 'Acer campestre'},
+  {eng: 'Goat Willow', latin: 'Salix caprea'},
+  {eng: 'Grand Fir', latin: 'Abies grandis'},
+  {eng: 'Grey Alder', latin: 'Alnus incana'},
+  {eng: 'Guelder Rose', latin: 'Viburnum opulus'},
+  {eng: 'Horse Chestnut', latin: 'Aesculus hippocastanum'},
+  {eng: 'Hybrid Aspen', latin: ' Populus x wettsteinii'},
+  {eng: 'Japanese Larch', latin: 'Larix kaempferi'},
+  {eng: 'Lodgepole Pine', latin: 'Pinus contorta'},
+  {eng: 'London Plane', latin: 'Platanus x hispanica'},
+  {eng: 'Maidenhair Tree', latin: 'Ginkgo biloba'},
+  {eng: 'Mountain Currant, Alpine Currant', latin: 'Ribes alpinum'},
+  {eng: 'Mountain Pine', latin: 'Pinus mugo'},
+  {eng: 'Norway Maple', latin: 'Acer platanoides'},
+  {eng: 'Norway Spruce', latin: 'Picea abies'},
+  {eng: 'Norway spruce', latin: 'Picea abies'},
+  {eng: 'Ponderosa Pine', latin: 'Pinus ponderosa'},
+  {eng: 'Red Oak', latin: 'Quercus rubra'},
+  {eng: 'Scots Pine', latin: 'Pinus sylvestris'},
+  {eng: 'Sessile Oak', latin: 'Quercus petraea'},
+  {eng: 'Silver Birch', latin: 'Betula pendula'},
+  {eng: 'Sitka Spruce', latin: 'Picea sitchensis'},
+  {eng: 'Small-leaved Lime', latin: 'Tilia cordata'},
+  {eng: 'Sugar Maple', latin: 'Acer saccharum'},
+  {eng: 'Swedish Whitebeam', latin: 'Sorbus intermedia'},
+  {eng: 'Sycamore Maple', latin: 'Acer pseudoplatanus'},
+  {eng: 'Western Red Cedar', latin: 'Thuja plicata'},
+  {eng: 'Weymouth Pine', latin: 'Pinus strobus'},
+  {eng: 'White Willow', latin: 'Salix alba var. Sericea'},
+  {eng: 'Wild Cherry', latin: 'Prunus avium'},
+  {eng: 'Wild Crab', latin: 'Malus sylvestris'},
+  {eng: 'Wynch Elm', latin: 'Ulmus glabra'}];
 
 var counter = 0;
 var init = false;
+var rand = false;
 
 function show_image(src, width, height, id, name) {
   var img = document.createElement(name);
@@ -77,12 +77,28 @@ function show_image(src, width, height, id, name) {
   document.getElementById('maindiv').appendChild(img);
 }
 
+const getRandomNumber = (min, max) => {
+  return Math.round(Math.random() * (max - min) + min)
+}
+
 function do_round() {
-  const element = document.getElementById('startbutton');
-  if (element)
-    element.remove();
+  const element0 = document.getElementById('startbutton0');
+  if (element0)
+    element0.remove();
+  const element1 = document.getElementById('startbutton1');
+  if (element1)
+    element1.remove();
   response();
   display_next();
+}
+
+function start_rand() {
+  rand = true;
+  do_round();
+}
+
+function start_alpha() {
+  do_round();
 }
 
 function response() {
@@ -103,7 +119,11 @@ function response() {
   const element = document.getElementById('nexttree');
   if (element)
     element.remove();
-  counter = (counter + 1) % tree_list.length;
+  if (rand)
+    counter = getRandomNumber(0, 1000) % tree_list.length;
+  else
+    counter = (counter + 1) % tree_list.length;
+  console.log(counter);
   document.getElementById('texteditor').value = '';
 }
 

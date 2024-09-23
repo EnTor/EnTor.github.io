@@ -1,48 +1,64 @@
-Pinaceae Abies grandis Grand Fir kustgran 06a
-Sapindaceae Acer campestre Field Maple naverlönn 17
-Sapindaceae Acer platanoides Norway Maple skogslönn 17, 19, 35
-Sapindaceae Acer pseudoplatanus Sycamore Maple tysklönn, sykomorlönn 16, 17, 35
-Sapindaceae Acer saccharum Sugar Maple sockerlönn 20
-Sapindaceae Aesculus hippocastanum Horse Chestnut hästkastanj 17, 26
-Betulaceae Alnus glutinosa Common Alder klibbal 04f
-Betulaceae Alnus incana Grey Alder gråal 02b
-Betulaceae Betula pendula Silver Birch vårtbjörk 16
-Betulaceae Betula pubescens Downy Birch glasbjörk 03e, 05a, 10
-Betulaceae Carpinus betulus Common Hornbeam avenbok 04f
-Cornaceae Cornus mas Cornelian Cherry vårkornell 01a
-Cornaceae Cornus sanguinea Common Dogwood skogskornell 01a
-Betulaceae Corylus avellana Common Hazel hassel 05d, 16, 18
-Rosaceae Crataegus monogyna Common Hawthorn trubbhagtorn 11b, 26, 20
-Fagaceae Fagus sylvatica Common Beech bok 16
-Oleaceae Fraxinus excelsior Common Ash ask 17, 19
-Ginkgoaceae Ginkgo biloba Maidenhair Tree ginkgo 07b, 16, 19
-Juglandaceae Juglans regia Common Walnut valnöt 17, 18
-Cupressaceae Juniperus communis Common Juniper en 07a
-Pinaceae Larix decidua European Larch europeisk lärk 17
-Pinaceae Larix kaempferi Japanese Larch japansk lärk 06a
-Rosaceae Malus sylvestris Wild Crab vildapel 03d, 25
-Pinaceae Picea abies Norway Spruce gran 06b, 07a
-Pinaceae Picea sitchensis Sitka Spruce sitkagran 16
-Pinaceae Pinus contorta Lodgepole Pine contortatall 06b
-Pinaceae Pinus mugo Mountain Pine bergtall 13
-Pinaceae Pinus nigra Austrian Pine svarttall 06b, 16
-Pinaceae Pinus ponderosa Ponderosa Pine gultall 16
-Pinaceae Pinus strobus Weymouth Pine weymouthtall 06a
-Pinaceae Pinus sylvestris Scots Pine tall 06a, 07b, 10
-Rosaceae Prunus avium Wild Cherry fågelbär 03c, 04c
-Rosaceae Prunus padus Bird Cherry hägg 02e, 03c
-Pinaceae Pseudotsuga menziesii Douglas Fir douglasgran 06a, 06b
-Rosaceae Pyrus communis Common Pear päron 26, 34
-Fagaceae Quercus petraea Sessile Oak bergek 16
-Fagaceae Quercus robur English Oak skogsek 09a, 16, 17
-Fagaceae Quercus rubra Red Oak rödek 14, 23
-Salicaceae Salix caprea Goat Willow sälg 34
-Adoxaceae Sambucus nigra European Elder fläder 15, 20
-Rosaceae Sorbus aucuparia Common Rowan rönn 02a, 03a
-Rosaceae Sorbus intermedia Swedish Whitebeam oxel 01a
-Taxaceae Taxus baccata Common Yew idegran 06a, 16
-Malvaceae Tilia cordata Small-leaved Lime skogslind 17
-Malvaceae Tilia platyphyllos Broad-leaved Lime bohuslind 19
-Pinaceae Tsuga canadensis Eastern Hemlock vanlig hemlock 07b, 28
-Ulmaceae Ulmus glabra Wynch Elm skogsalm 15
-Adoxaceae Viburnum opulus Guelder Rose skogsolvon 04f
+{eng: 'European red pine', latin: 'Pinus sylvestris', pic: 'tall.jpg'},
+{eng: 'Norway spruce', latin: 'Picea abies', pic: 'gran.jpg'},
+{eng: 'European beech', latin: 'Fagus sylvatica', pic: 'bok.jpg'},
+{eng: 'Grand Fir', latin: 'Abies grandis'},
+{eng: 'Field Maple', latin: 'Acer campestre'},
+{eng: 'Norway Maple', latin: 'Acer platanoides'},
+{eng: 'Sycamore Maple', latin: 'Acer pseudoplatanus'},
+{eng: 'Sugar Maple', latin: 'Acer saccharum'},
+{eng: 'Horse Chestnut', latin: 'Aesculus hippocastanum'},
+{eng: 'Common Alder', latin: 'Alnus glutinosa'},
+{eng: 'Grey Alder', latin: 'Alnus incana'},
+{eng: 'Silver Birch', latin: 'Betula pendula'},
+{eng: 'Downy Birch', latin: 'Betula pubescens'},
+{eng: 'Common Hornbeam', latin: 'Carpinus betulus'},
+{eng: 'Cornelian Cherry', latin: 'Cornus mas'},
+{eng: 'Common Dogwood', latin: 'Cornus sanguinea'},
+{eng: 'Common Hazel', latin: 'Corylus avellana'},
+{eng: 'Common Hawthorn', latin: 'Crataegus monogyna'},
+{eng: 'Common Beech', latin: 'Fagus sylvatica'},
+{eng: 'Common Ash', latin: 'Fraxinus excelsior'},
+{eng: 'Maidenhair Tree', latin: 'Ginkgo biloba'},
+{eng: 'Common Walnut', latin: 'Juglans regia'},
+{eng: 'Common Juniper', latin: 'Juniperus communis'},
+{eng: 'European Larch', latin: 'Larix decidua'},
+{eng: 'Japanese Larch', latin: 'Larix kaempferi'},
+{eng: 'Wild Crab', latin: 'Malus sylvestris'},
+{eng: 'Norway Spruce', latin: 'Picea abies'},
+{eng: 'Sitka Spruce', latin: 'Picea sitchensis'},
+{eng: 'Lodgepole Pine', latin: 'Pinus contorta'},
+{eng: 'Mountain Pine', latin: 'Pinus mugo'},
+{eng: 'Austrian Pine', latin: 'Pinus nigra'},
+{eng: 'Ponderosa Pine', latin: 'Pinus ponderosa'},
+{eng: 'Weymouth Pine', latin: 'Pinus strobus'},
+{eng: 'Scots Pine', latin: 'Pinus sylvestris'},
+{eng: 'Wild Cherry', latin: 'Prunus avium'},
+{eng: 'Bird Cherry', latin: 'Prunus padus'},
+{eng: 'Douglas Fir', latin: 'Pseudotsuga menziesii'},
+{eng: 'Common Pear', latin: 'Pyrus communis'},
+{eng: 'Sessile Oak', latin: 'Quercus petraea'},
+{eng: 'English Oak', latin: 'Quercus robur'},
+{eng: 'Red Oak', latin: 'Quercus rubra'},
+{eng: 'Goat Willow', latin: 'Salix caprea'},
+{eng: 'European Elder', latin: 'Sambucus nigra'},
+{eng: 'Common Rowan', latin: 'Sorbus aucuparia'},
+{eng: 'Swedish Whitebeam', latin: 'Sorbus intermedia'},
+{eng: 'Common Yew', latin: 'Taxus baccata'},
+{eng: 'Small-leaved Lime', latin: 'Tilia cordata'},
+{eng: 'Broad-leaved Lime', latin: 'Tilia platyphyllos'},
+{eng: 'Eastern Hemlock', latin: 'Tsuga canadensis'},
+{eng: 'Wynch Elm', latin: 'Ulmus glabra'},
+{latin: 'Tilia × europaea', eng: 'Common Lime'},
+{latin: 'Platanus × hispanica', eng: 'London Plane'},
+{latin: ' Populus × canadensis \'Robusta\'', eng: 'Canadian Poplar'},
+{eng: 'Hybrid Aspen', latin: ' Populus × wettsteinii'},
+{eng: 'Aspen', latin: 'Populus tremula'},
+{eng: 'Dunkeld Larch', latin: 'Larix x marschlinsii (eurolepis)'},
+{eng: 'European Fly Honeysuckle', latin: 'Lonicera xylosteum'},
+{eng: 'Blackthorn', latin: 'Prunus spinosa'},
+{eng: 'Mountain Currant, Alpine Currant', latin: 'Ribes alpinum'},
+{eng: 'White Willow', latin: 'Salix alba var. Sericea'},
+{eng: 'European Red Elder', latin: 'Sambucus racemosa'},
+{eng: 'Eastern White Cedar', latin: 'Thuja occidentalis'},
+{eng: 'Western Red Cedar', latin: 'Thuja plicata'},
+{eng: 'Guelder Rose', latin: 'Viburnum opulus'},

@@ -14,7 +14,7 @@ h1 {
 	color: white;
 	font-family: "Tahoma";
 	font-size: 200%;
-	margin: 3px;
+	margin: 0;
 }
 
 h2 {
@@ -48,6 +48,7 @@ h2 {
 	background-color: rgba(50,50,50,1);
 	position: fixed;
 	height: 5vh;
+	line-height: 5vh;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -108,7 +109,7 @@ a.inactive {
 	top: 5vh;
 	padding: 1vh 1vh 1vh 1vh;
 	border: solid 1px black;
-	background-color: rgba(70, 130, 70, 0.95);
+	background-color: rgba(105, 170, 100, 0.99);
 }
 
 #imagediv {
@@ -148,7 +149,7 @@ a.inactive {
 	padding: 2px;
 	background-color: rgba(200,200,200,1);
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border: solid 1px black;
 	text-align:left;
 	font-size: 150%;
