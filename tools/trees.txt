@@ -1,0 +1,48 @@
+Pinaceae Abies grandis Grand Fir kustgran 06a
+Sapindaceae Acer campestre Field Maple naverlönn 17
+Sapindaceae Acer platanoides Norway Maple skogslönn 17, 19, 35
+Sapindaceae Acer pseudoplatanus Sycamore Maple tysklönn, sykomorlönn 16, 17, 35
+Sapindaceae Acer saccharum Sugar Maple sockerlönn 20
+Sapindaceae Aesculus hippocastanum Horse Chestnut hästkastanj 17, 26
+Betulaceae Alnus glutinosa Common Alder klibbal 04f
+Betulaceae Alnus incana Grey Alder gråal 02b
+Betulaceae Betula pendula Silver Birch vårtbjörk 16
+Betulaceae Betula pubescens Downy Birch glasbjörk 03e, 05a, 10
+Betulaceae Carpinus betulus Common Hornbeam avenbok 04f
+Cornaceae Cornus mas Cornelian Cherry vårkornell 01a
+Cornaceae Cornus sanguinea Common Dogwood skogskornell 01a
+Betulaceae Corylus avellana Common Hazel hassel 05d, 16, 18
+Rosaceae Crataegus monogyna Common Hawthorn trubbhagtorn 11b, 26, 20
+Fagaceae Fagus sylvatica Common Beech bok 16
+Oleaceae Fraxinus excelsior Common Ash ask 17, 19
+Ginkgoaceae Ginkgo biloba Maidenhair Tree ginkgo 07b, 16, 19
+Juglandaceae Juglans regia Common Walnut valnöt 17, 18
+Cupressaceae Juniperus communis Common Juniper en 07a
+Pinaceae Larix decidua European Larch europeisk lärk 17
+Pinaceae Larix kaempferi Japanese Larch japansk lärk 06a
+Rosaceae Malus sylvestris Wild Crab vildapel 03d, 25
+Pinaceae Picea abies Norway Spruce gran 06b, 07a
+Pinaceae Picea sitchensis Sitka Spruce sitkagran 16
+Pinaceae Pinus contorta Lodgepole Pine contortatall 06b
+Pinaceae Pinus mugo Mountain Pine bergtall 13
+Pinaceae Pinus nigra Austrian Pine svarttall 06b, 16
+Pinaceae Pinus ponderosa Ponderosa Pine gultall 16
+Pinaceae Pinus strobus Weymouth Pine weymouthtall 06a
+Pinaceae Pinus sylvestris Scots Pine tall 06a, 07b, 10
+Rosaceae Prunus avium Wild Cherry fågelbär 03c, 04c
+Rosaceae Prunus padus Bird Cherry hägg 02e, 03c
+Pinaceae Pseudotsuga menziesii Douglas Fir douglasgran 06a, 06b
+Rosaceae Pyrus communis Common Pear päron 26, 34
+Fagaceae Quercus petraea Sessile Oak bergek 16
+Fagaceae Quercus robur English Oak skogsek 09a, 16, 17
+Fagaceae Quercus rubra Red Oak rödek 14, 23
+Salicaceae Salix caprea Goat Willow sälg 34
+Adoxaceae Sambucus nigra European Elder fläder 15, 20
+Rosaceae Sorbus aucuparia Common Rowan rönn 02a, 03a
+Rosaceae Sorbus intermedia Swedish Whitebeam oxel 01a
+Taxaceae Taxus baccata Common Yew idegran 06a, 16
+Malvaceae Tilia cordata Small-leaved Lime skogslind 17
+Malvaceae Tilia platyphyllos Broad-leaved Lime bohuslind 19
+Pinaceae Tsuga canadensis Eastern Hemlock vanlig hemlock 07b, 28
+Ulmaceae Ulmus glabra Wynch Elm skogsalm 15
+Adoxaceae Viburnum opulus Guelder Rose skogsolvon 04f
