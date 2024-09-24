@@ -28,7 +28,6 @@ var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
   {eng: 'European Fly Honeysuckle', latin: 'Lonicera xylosteum'},
   {eng: 'European Larch', latin: 'Larix decidua'},
   {eng: 'European Red Elder', latin: 'Sambucus racemosa'},
-  {eng: 'European Beech', latin: 'Fagus sylvatica'},
   {eng: 'European Red Pine', latin: 'Pinus sylvestris'},
   {eng: 'Field Maple', latin: 'Acer campestre'},
   {eng: 'Goat Willow', latin: 'Salix caprea'},
@@ -47,7 +46,6 @@ var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
   {eng: 'Norway Spruce', latin: 'Picea abies'},
   {eng: 'Ponderosa Pine', latin: 'Pinus ponderosa'},
   {eng: 'Red Oak', latin: 'Quercus rubra'},
-  {eng: 'Scots Pine', latin: 'Pinus sylvestris'},
   {eng: 'Sessile Oak', latin: 'Quercus petraea'},
   {eng: 'Silver Birch', latin: 'Betula pendula'},
   {eng: 'Sitka Spruce', latin: 'Picea sitchensis'},
@@ -105,7 +103,7 @@ function shuffle(array) {
 }
 
 function start_rand() {
-  const numbers = Array.from({ length: 63 }, (_, i) => i);
+  const numbers = Array.from({ length: 61 }, (_, i) => i);
   random_ids = shuffle(numbers);
   console.log(random_ids);
   do_round();
@@ -130,7 +128,7 @@ function response() {
   }
   document.getElementById('textviewerdiv').innerHTML = response;
   document.getElementById('texteditor').value = '';
-  document.getElementById('score').innerText = nbr_correct.toString() + '/' + nbr_rounds.toString() + ' (63)';
+  document.getElementById('score').innerText = nbr_correct.toString() + '/' + nbr_rounds.toString() + ' (61)';
 }
 
 function display_next() {
