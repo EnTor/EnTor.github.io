@@ -110,11 +110,11 @@ function response() {
     return;
   var response = document.getElementById('texteditor').value;
   
-  if (tree.eng.toLowerCase() == in_text.toLowerCase()) {
+  if (tree.latin.toLowerCase() == in_text.toLowerCase()) {
     response = "Correct";
     document.getElementById('textviewerdiv').style.color = 'green'
   } else {
-    response = "Wrong: " + tree.eng;
+    response = "Wrong: " + tree.latin;
     document.getElementById('textviewerdiv').style.color = 'red'
   }
   document.getElementById('textviewerdiv').innerHTML = response;
