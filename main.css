@@ -25,6 +25,10 @@ h2 {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.score {
+	color: white;
+}
+
 .butt {
 	background-color: rgba(50,50,50,1);
 	color: white;

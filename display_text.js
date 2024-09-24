@@ -28,8 +28,8 @@ var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
   {eng: 'European Fly Honeysuckle', latin: 'Lonicera xylosteum'},
   {eng: 'European Larch', latin: 'Larix decidua'},
   {eng: 'European Red Elder', latin: 'Sambucus racemosa'},
-  {eng: 'European beech', latin: 'Fagus sylvatica'},
-  {eng: 'European red pine', latin: 'Pinus sylvestris'},
+  {eng: 'European Beech', latin: 'Fagus sylvatica'},
+  {eng: 'European Red Pine', latin: 'Pinus sylvestris'},
   {eng: 'Field Maple', latin: 'Acer campestre'},
   {eng: 'Goat Willow', latin: 'Salix caprea'},
   {eng: 'Grand Fir', latin: 'Abies grandis'},
@@ -41,7 +41,7 @@ var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
   {eng: 'Lodgepole Pine', latin: 'Pinus contorta'},
   {eng: 'London Plane', latin: 'Platanus x hispanica'},
   {eng: 'Maidenhair Tree', latin: 'Ginkgo biloba'},
-  {eng: 'Mountain Currant, Alpine Currant', latin: 'Ribes alpinum'},
+  {eng: 'Mountain Currant', latin: 'Ribes alpinum'},
   {eng: 'Mountain Pine', latin: 'Pinus mugo'},
   {eng: 'Norway Maple', latin: 'Acer platanoides'},
   {eng: 'Norway Spruce', latin: 'Picea abies'},
@@ -66,6 +66,11 @@ var tree_list = [{eng: 'Aspen', latin: 'Populus tremula'},
 var counter = 0;
 var init = false;
 var rand = false;
+var random_ids = [];
+var nbr_rounds = 0;
+var nbr_correct = 0;
+resp = false;
+id_counter_rand = 0;
 
 function show_image(src, width, height, id, name) {
   var img = document.createElement(name);
@@ -82,22 +87,28 @@ const getRandomNumber = (min, max) => {
 }
 
 function do_round() {
-  const element0 = document.getElementById('startbutton0');
-  if (element0)
-    element0.remove();
-  const element1 = document.getElementById('startbutton1');
+  const element1 = document.getElementById('startbutton');
   if (element1)
     element1.remove();
-  response();
-  display_next();
+  if (resp)
+    response();
+  else
+    display_next();
+  resp = !resp;
+}
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 function start_rand() {
-  rand = true;
-  do_round();
-}
-
-function start_alpha() {
+  const numbers = Array.from({ length: 64 }, (_, i) => i);
+  random_ids = shuffle(numbers);
+  console.log(random_ids);
   do_round();
 }
 
@@ -109,27 +120,27 @@ function response() {
   if (!tree)
     return;
   var response = document.getElementById('texteditor').value;
-  
+  nbr_rounds++;
   if (tree.latin.toLowerCase() == in_text.toLowerCase()) {
     response = "Correct";
     document.getElementById('textviewerdiv').style.color = 'green'
+    nbr_correct++;
   } else {
     response = "Wrong: " + tree.latin;
     document.getElementById('textviewerdiv').style.color = 'red'
   }
   document.getElementById('textviewerdiv').innerHTML = response;
-  const element = document.getElementById('nexttree');
-  if (element)
-    element.remove();
-  if (rand)
-    counter = getRandomNumber(0, 1000) % tree_list.length;
-  else
-    counter = (counter + 1) % tree_list.length;
-  console.log(counter);
   document.getElementById('texteditor').value = '';
+  document.getElementById('score').innerText = nbr_correct.toString() + '/' + nbr_rounds.toString() + ' (64)';
 }
 
 function display_next() {
+  const element = document.getElementById('nexttree');
+  if (element)
+    element.remove();
+  document.getElementById('textviewerdiv').innerHTML = '';
+  counter = random_ids[id_counter_rand];
+  id_counter_rand = (id_counter_rand + 1) % tree_list.length;
   tree = tree_list[counter];
   if (!tree)
     return;

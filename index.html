@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="top_div">
-		<h1>Cool Trees</h1>
+		<h1 id="score">0/0</h1>
 	</div>
 	<div id="maindiv">
 		<div id="textdiv">
@@ -18,15 +18,14 @@
 			<div id="textviewerdiv">
 			</div>
 			<div id="buttondiv">
-				<input class="butt" id="startbutton0" type="button" value="Start alphabetically" onclick="start_alpha()" />
-				<input class="butt" id="startbutton1" type="button" value="Start random" onclick="start_rand()" />
+				<input class="butt" id="startbutton" type="button" value="Start random" onclick="start_rand()" />
 				<input class="butt" type="button" value="Next" onclick="do_round()" />
 			</div>
 		</div>
 	</div>
-		<div id="imagediv">
+	<!--<div id="imagediv">
 		</div>
-	<!--<div id="bottom_div">
+		<div id="bottom_div">
 		<span id="bottom_left_heading">
 		</span>
 		<span id="bottom_right_heading">
